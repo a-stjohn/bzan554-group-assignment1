@@ -1,16 +1,44 @@
-Question: Meet with you team to discuss the details of how you are going to
-approach the group assignment. Write pseudo code for every single step in your
-code. The more details you provide the higher the chance of getting credit for
-this bonus assignment.
+Step 1) 
+Create a github repository for us to collaborate in. We will invite everyone as a collaborator
+onto the project, and this is where we will create branches and merge code as neccessary. For this
+project we have elected Aaron S. to be the repo owner since he has the most experience with
+GitHub.
 
-#Answer:
+Step 2) 
+Download the zipped data (unzip too large).
 
-1. Communicate with group that the best collaboration and version control tool
-we can use is Github. Thus, create and poupulate the Github repo with
-Aaron S. as the owner.
-
-2. Download the zipped data (unzip too large).
-
-3. Read the data in and output 10 rows with the title and category of the
+Step 3) 
+Read the data in and output 10 rows with the title and category of the
 product. Code to do this has been provided in the assignment. This is done
 using a generator because the data is too large to load into RAM.
+
+Step 4)
+Generate the rough architecture for the CNN. This includes figuring out
+the number of input nodes, the number of hidden layers, as well as the number of hidden
+nodes per layer. This step will probably be revisted multiple times throughout the project.
+
+Step 5)
+Iteratively step through some of the data, perhaps the first 10% (or a flat number like
+10k) and evaluate the performance of the model to make sure everything is working and that
+we are getting the results we expect.
+
+Step 6)
+Based on the output of step 5 we may need to reiterate up to step 4 to reshape the architecture of
+the CNN. Once we are pleased with the results of our trial run we move on to step 6.
+
+Step 7) 
+Once we have settled on the architecture for our Neural Network, we will train the 
+model on all of the data and gauge it's performance. 
+
+Step 8) 
+Once we evaluate the performance of the model we can decide if we want to bake in some form
+of cleaning for the 'other' category to help the model learning. If we decide the model is performing
+well enough then we can conclude the project.
+
+Step 9) 
+Create the write-up for the assignment. This includes a presentation talking about the performance
+of the model, the insights we garnered from the model, as well as details on the data, training times
+and the like. 
+
+Step 10)
+Submit the project and feel good about a job well done. 
