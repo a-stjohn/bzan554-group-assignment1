@@ -1,0 +1,16 @@
+Question: Meet with you team to discuss the details of how you are going to
+approach the group assignment. Write pseudo code for every single step in your
+code. The more details you provide the higher the chance of getting credit for
+this bonus assignment.
+
+#Answer:
+
+1. Communicate with group that the best collaboration and version control tool
+we can use is Github. Thus, create and poupulate the Github repo with
+Aaron S. as the owner.
+
+2. Download the zipped data (unzip too large).
+
+3. Read the data in and output 10 rows with the title and category of the
+product. Code to do this has been provided in the assignment. This is done
+using a generator because the data is too large to load into RAM.
